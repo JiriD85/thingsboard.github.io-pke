@@ -4,16 +4,16 @@ author: PKE Gebäudetechnik GmbH
 logo: /images/pke-logo-blau.png
 url: https://www.pke-iot.expert
 
-twitter:
-  username: thingsboard
+# twitter:
+#   username: thingsboard
 
-social:
-  name: ThingsBoard
-  links:
-    - https://twitter.com/thingsboard
-    - https://github.com/thingsboard/thingsboard
-    - https://www.facebook.com/thingsboard
-    - https://www.youtube.com/channel/thingsboard
+# social:
+#   name: ThingsBoard
+#   links:
+#     - https://twitter.com/thingsboard
+#     - https://github.com/thingsboard/thingsboard
+#     - https://www.facebook.com/thingsboard
+#     - https://www.youtube.com/channel/thingsboard
 
 seo:
   type: WebSite
