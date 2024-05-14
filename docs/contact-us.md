@@ -98,9 +98,6 @@ notitle: "true"
                     <select class="form-control select" name="subject">
                         <option value="" disabled selected>Select Subject</option>
                         <option value="Technical Support">Technical Support</option>
-                        <option value="ThingsBoard Products">ThingsBoard Products</option>
-                        <option value="Deployment Options">Deployment Options</option>
-                        <option value="Training">Training</option>
                         <option value="Professional Services">Professional Services</option>
                         <option value="Partnership">Partnership</option>
                         <option value="Press or Analyst Inquiry">Press or Analyst Inquiry</option>
@@ -128,7 +125,8 @@ notitle: "true"
 <script type="text/javascript">
 
     var contactform =  document.getElementById('contact-form');
-    contactform.setAttribute('action', 'https://formspree.io/f/xbjvbeln');
+//    contactform.setAttribute('action', 'https://formspree.io/f/xbjvbeln');
+    contactform.setAttribute('action', 'https://formspree.io/f/mayrkdpz'); // 
 
     jqueryDefer(
         function () {
