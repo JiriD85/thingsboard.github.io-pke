@@ -1,7 +1,7 @@
 ---
 layout: use-case
-title: ᐉ IoT Energy Management & Monitoring — ThingsBoard
-description: IoT Energy Management ✔IoT Energy Monitoring ⚫ ThingsBoard ➤ Smart energy monitoring and data visualization with ThingsBoard IoT Platform
+title: Energy Management & Monitoring
+description: Smart energy management and monitoring.
 notitle: "true"
 redirect_from: "/docs/services/energy-management/"
 ---
@@ -14,7 +14,7 @@ Energy in business is a crucial resource that influences workflows. It is also a
 
 In an era where sustainability and efficiency are not just buzzwords, the role of the Internet of Things (IoT) in energy management and monitoring cannot be overstated. Harnessing the power of IoT for energy monitoring leads to significant cost savings, improved operational efficiency, and a reduced environmental footprint.
 
-ThingsBoard platform dramatically reduces time to market and efforts to create smart-energy solutions. 
+PKE IoT Expert dramatically reduces time to market and efforts to create smart-energy solutions. 
 Save up to 90% of development time for your smart-energy solution by utilizing the following platform benefits:
 
   - Reliable and scalable data collection for your smart meters and energy monitors;
@@ -57,20 +57,20 @@ The implementation of smart energy management using IoT comes with a multitude o
 
 ## IoT-based energy Monitoring Solutions We Offer
 
-ThingsBoard provides a variety of IoT-based energy monitoring system solutions. Here are some of them:
+PKE IoT Expert provides a variety of IoT-based energy monitoring system solutions. Here are some of them:
 
 * Smart meters — measure energy consumption in real-time, providing valuable data for analysis.
 * Modbus meters — are a type of smart meter that uses the Modbus protocol, a popular communication protocol in industrial applications.
 * IoT gateways connect smart meters and other IoT devices to the Internet, enabling real-time data collection and remote control.
-* The transport layer includes various protocols such as MQTT, CoAP, HTTP, and LwM2M that are used for transmitting data from IoT devices to the ThingsBoard platform.
-* The integration layer includes the ThingsBoard core, which provides device and user management, a rule engine for data processing and aggregation, and an SQL/NoSQL database for data storage.
+* The transport layer includes various protocols such as MQTT, CoAP, HTTP, and LwM2M that are used for transmitting data from IoT devices to the PKE IoT Expert platform.
+* The integration layer provides device and user management, a rule engine for data processing and aggregation, and an SQL/NoSQL database for data storage.
 * The application layer includes end-user interfaces such as real-time dashboards and mobile apps that display the collected data in an easy-to-understand format.
 
 Contact us to know more about how IoT solutions can help in energy efficiency!
 
 ## Smart Energy Dashboard Examples
 
-ThingsBoard offers a variety of smart energy dashboard examples that provide real-time data visualization. These dashboards are interactive and can be easily embedded into your IoT solution.
+PKE IoT Expert offers a variety of smart energy dashboard examples that provide real-time data visualization. These dashboards are interactive and can be easily embedded into your IoT solution.
 
 Here are some key features of the smart energy dashboards:
 
@@ -95,17 +95,16 @@ The following interactive dashboard represents smart-energy IoT data visualizati
     </div>
 </div>
 
-<div class="center" style="margin-bottom: 64px;">
+<!-- <div class="center" style="margin-bottom: 64px;">
     <a id="UseCases_SmartEnergy_ViewLiveDemo" target="_blank" href="https://demo.thingsboard.io/dashboard/e8e409c0-f2b5-11e6-a6ee-bb0136cc33d0?publicId=963ab470-34c9-11e7-a7ce-bb0136cc33d0" class="button gtm_button">View live demo</a>
-</div>
+</div> -->
 
-The live dashboard displays real-time data from several smart meters collected using ThingsBoard MQTT API. 
+The dashboard displays real-time data from several smart meters collected using MQTT API. 
 Collected data is processed via the rule engine to raise alarms on certain thresholds. 
 The main dashboard displays the energy meters, corresponding alarms, and real-time data feeds. 
 Click on the alarm or energy meter row to open the meter details. 
-You may export the dashboard from our live demo server and import it to your ThingsBoard instance.
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -113,25 +112,26 @@ You may export the dashboard from our live demo server and import it to your Thi
     <div class="cards row">
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/microservices-icon.svg"></object>
+                <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. Platform components are horizontally scalable. ThingsBoard has production deployments with more than 500 000 smart-meters.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/telemetry-icon.svg"></object>
+                <img src="/images/telemetry-icon.svg" alt="Telemetry icon">
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
-                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/integration-icon.svg"></object>
+                <img src="/images/integration-icon.svg" alt="Integration icon">
                 <div>
                     <a class="title" href="/docs/user-guide/integrations/">LoRaWAN & SigFox Support</a>
                     <p>Connect LoRaWAN devices via integrations with standard network servers like TTN, LORIOT, ChirpStack, Actility, etc. Connect SigFox devices via integrations with the SigFox backend.</p>
@@ -140,25 +140,25 @@ You may export the dashboard from our live demo server and import it to your Thi
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/security-icon.svg"></object>
+                <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/engine-icon.svg"></object>
+                <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/visualization-icon.svg"></object>
+                <img src="/images/visualization-icon.svg" alt="Data visualization icon">
                 <div>
                     <a class="title" href="/docs/user-guide/dashboards/">Data visualization</a>
                     <p>Visualize collected data using rich interactive dashboards. Develop multi-state interactive dashboards with zero coding efforts and built-in charts, gauges, maps, tables, and control widgets. Customize every dashboard aspect using advanced widget settings or even custom widget bundles. Low latency updates are possible with embedded web-sockets support.</p>
@@ -167,36 +167,36 @@ You may export the dashboard from our live demo server and import it to your Thi
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/phone-icon.svg"></object>
+                <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
                     <a class="title" href="/docs/mobile/">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/tenancy-icon.svg"></object>
+                <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-With an expert team that understands these complexities, ThingsBoard is committed to providing an energy monitoring system using IoT that not only addresses these challenges but also drives efficiency and sustainability in IoT energy management.
+With an expert team that understands these complexities, we are providing an energy monitoring system using IoT that not only addresses these challenges but also drives efficiency and sustainability in IoT energy management.
 
 
 ## Smart energy system architecture diagram
 
-The diagram below identifies data flow and integration points for a typical smart-energy solution that uses the ThingsBoard platform to collect and analyze energy monitoring data from smart meters.
+The diagram below identifies data flow and integration points for a typical smart-energy solution that uses the PKE IoT Expert to collect and analyze energy monitoring data from smart meters.
 
 <object width="100%" style="max-width: max-content; margin: 32px 0" data="/images/iot-use-cases/smart-energy-diagram.svg"></object>
 
 You may notice plenty of connectivity options for the smart meters: direct connection to the cloud, through the IoT Gateway, or an Integration with a third-party system.
-The platform supports industry-standard encryption algorithms and device credentials types. ThingsBoard stores data in the fault-tolerant and reliable Cassandra database. 
+The platform supports industry-standard encryption algorithms and device credentials types. PKE IoT Expert stores data in the fault-tolerant and reliable Cassandra database. 
 The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses.
 
 ## Our cases
@@ -207,7 +207,7 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
 * Smart Office: Ensure employee health and safety to boost organization productivity. Optimize resource consumption by monitoring and controlling the office's indoor climate.
 
 
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -237,4 +237,4 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
             </form>
         </div>
     </div>
-</div>
+</div> -->

@@ -229,7 +229,7 @@ description: Real feedback from real clients. Dive into our testimonials to unde
 
     var contactform =  document.getElementById('contact-form');
 
-    contactform.setAttribute('action', 'https://formspree.io/f/xbjvbeln');
+    contactform.setAttribute('action', 'https://formspree.io/f/mayrkdpz');
 
     jqueryDefer(
         function () {

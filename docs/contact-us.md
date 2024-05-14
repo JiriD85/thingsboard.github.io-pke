@@ -125,7 +125,6 @@ notitle: "true"
 <script type="text/javascript">
 
     var contactform =  document.getElementById('contact-form');
-//    contactform.setAttribute('action', 'https://formspree.io/f/xbjvbeln');
     contactform.setAttribute('action', 'https://formspree.io/f/mayrkdpz'); // 
 
     jqueryDefer(

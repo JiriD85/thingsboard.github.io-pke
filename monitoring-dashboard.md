@@ -1,8 +1,8 @@
 ---
 layout: iot-article
-title: ᐉ IoT Monitoring Dashboard
+title: IoT Monitoring Dashboard
 notitle: "true"
-description: "IoT Monitoring Dashboard ✔ IoT control panel ⚫ ThingsBoard ➤ Provides the ability to create and manage dashboards ✔ with a plenty of widgets"
+description: "Create and manage your own dashboards."
 redirect_from: "/docs/services/monitoring-dashboard/"
 ---
 
@@ -13,7 +13,7 @@ redirect_from: "/docs/services/monitoring-dashboard/"
             <span class="read-info">11 minutes read</span>
             <h1>IoT Monitoring Dashboard</h1>
             <div class="text-content medium-margin">In the dynamic landscape of digitization and the Internet of Things (IoT), the importance of data management and monitoring is quite reasonable. In this regard, the IoT monitoring dashboard is a tool that not only simplifies the visualization of large amounts of data but also makes it more efficient and informative.</div>
-            <div class="text-content"><span class="bold">In the ThingsBoard platform the dashboards</span> are an integral part of the user interface for IoT apps, offering solutions for the rapid development, management, and scaling of IoT projects.</div>
+            <div class="text-content"><span class="bold">In the PKE IoT Expert dashboards</span> are an integral part of the user interface for IoT apps, offering solutions for the rapid development, management, and scaling of IoT projects.</div>
         </div>
         <img class="image" srcset="/images/iot-articles/monitoring_dashboard_1_1090x742.png 1090w, /images/iot-articles/monitoring_dashboard_1_2180x1484.png 2180w" sizes="(max-width: 1920px) 1090px, (min-width: 1921px) 2180px" src="/images/iot-articles/monitoring_dashboard_1_1090x742.png" alt="IoT energy management office monitoring"/>
         <div class="text-wrapper">
@@ -38,16 +38,16 @@ redirect_from: "/docs/services/monitoring-dashboard/"
                 <li>Cost savings. By monitoring energy usage and device performance, businesses can optimize their operations and reduce costs.</li>
             </ul>
             <h2 class="line-height-small">An Indispensable IoT Control Panel: Features You Will Approve</h2>
-            <div class="text-content medium-margin">ThingsBoard solution templates are a powerful feature of the ThingsBoard IoT platform that can significantly reduce the time-to-market for your IoT products. Here, we delve into the key characteristics that make it a cornerstone for IoT deployments:</div>
+            <div class="text-content medium-margin">PKE IoT Expert solution templates are a powerful feature that can significantly reduce the time-to-market for your IoT products. Here, we delve into the key characteristics that make it a cornerstone for IoT deployments:</div>
             <ul class="list">
-                <li>ThingsBoard's IoT control panel boasts an intuitive, user-friendly interface.</li>
-                <li>Our IoT sensor dashboard empowers users with robust device management functionalities.</li>
-                <li>Tailoring the dashboard to your specific needs is a breeze with ThingsBoard.</li>
-                <li>ThingsBoard's control panel incorporates a powerful rule engine that enables automated actions based on predefined conditions.</li>
+                <li>IoT control panel boasts an intuitive, user-friendly interface.</li>
+                <li>IoT sensor dashboard empowers users with robust device management functionalities.</li>
+                <li>Tailoring the dashboard to your specific needs is a breeze with PKE IoT Expert.</li>
+                <li>Control panel incorporates a powerful rule engine that enables automated actions based on predefined conditions.</li>
                 <li>Our IoT device dashboard provides comprehensive tools for data analysis and visualization.</li>
                 <li>Security is paramount in IoT deployments, so we offer robust access control features, ensuring that only authorized personnel have access to sensitive information and critical functionalities.</li>
             </ul>
-            <div class="text-content">For a detailed overview of ThingsBoard's Solution Templates, you can refer to the <a class="article-link" href="/docs/pe/solution-templates/overview/">IoT Solution templates overview</a>.</div>
+            <div class="text-content">For a detailed overview of Solution Templates, you can refer to the <a class="article-link" href="/docs/pe/solution-templates/overview/">IoT Solution templates overview</a>.</div>
             <h2>IoT Monitoring Dashboard Makes Your Business Goals Achievable</h2>
             <div class="text-content medium-margin">Achieving tangible business objectives requires a strategic approach. An IoT dashboard app serves as a linchpin in this endeavor, offering practical solutions to common challenges encountered during IoT implementation:</div>
         </div>
@@ -90,10 +90,10 @@ redirect_from: "/docs/services/monitoring-dashboard/"
         </div>
         <img class="image" srcset="/images/iot-articles/monitoring_dashboard_4_1090x672.png 1090w, /images/iot-articles/monitoring_dashboard_4_2180x1344.png 2180w" sizes="(max-width: 1920px) 1090px, (min-width: 1921px) 2180px" src="/images/iot-articles/monitoring_dashboard_4_1090x672.png" alt="IoT energy management office monitoring"/>
         <div class="text-wrapper">
-            <h2>How to Use the ThingsBoard Dashboard</h2>
-            <div class="sub-title">To use the ThingsBoard IoT dashboard open source, you can follow these steps:</div>
+            <h2>How to Use the PKE IoT Expert Dashboard</h2>
+            <div class="sub-title">To use the IoT dashboard you can follow these steps:</div>
             <ul class="list">
-                <li>Login to your ThingsBoard instance and navigate to the “Entities” section.</li>
+                <li>Login with your customer credentials and navigate to the “Entities” section.</li>
                 <li>Click on the “+” icon in the top right corner of the table and then select "Add new dashboard".</li>
                 <li>Input a name for your IoT web dashboard. No other changes are required at this time.</li>
                 <li>After creating the dashboard IoT for free, you can start adding widgets to it.</li>
@@ -101,37 +101,39 @@ redirect_from: "/docs/services/monitoring-dashboard/"
                 <li>Once you have added and configured all your widgets, don’t forget to save your dashboard.</li>
             </ul>
             <div class="text-content">For a more detailed guide on how to use the dashboard for IoT devices, you can refer to our <a class="article-link" href="/docs/pe/user-guide/dashboards/">Working with IoT dashboards</a> guide.</div>
-            <h2>ThingsBoard IoT Dashboard in Action (Case Studies)</h2>
+            <h2>IoT Dashboard in Action (Case Studies)</h2>
         </div>
         <div class="definitions-block">
             <div class="definitions-list">
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold padding-top">Asset Management</div>
-                    <div class="definition">By implementing ThingsBoard's IoT Dashboard, the facility gained real-time visibility into machine performance and production metrics. Predictive maintenance alerts ensured timely repairs, reducing downtime.</div>
+                    <div class="definition">By implementing IoT Dashboards, the facility gains real-time visibility into machine performance and production metrics. Predictive maintenance alerts are ensuring timely repairs, reducing downtime.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold">Enhancing Retail Customer Experience</div>
-                    <div class="definition">ThingsBoard's IoT Dashboard tracked foot traffic, analyzed customer behavior, and monitored inventory levels. Insights gained led to strategic product placements and personalized marketing efforts.</div>
+                    <div class="definition">IoT Dashboard tracks customer traffic, analyzes customer behavior, and monitors inventory levels. Insights gains can lead to strategic product placements and personalized marketing efforts.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold padding-top">Device Connectivity & Data Collection</div>
-                    <div class="definition">With ThingsBoard's IoT Dashboard, the provider gained real-time monitoring of device performance and proactive alerts for potential issues.</div>
+                    <div class="definition">With IoT Dashboard, the provider gains real-time monitoring of device performance and proactive alerts for potential issues.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold">Optimizing Agriculture Practices</div>
-                    <div class="definition">Using ThingsBoard's IoT Dashboard, the farm monitored soil moisture, temperature, and crop health. Data-driven irrigation and fertilization strategies were implemented.</div>
+                    <div class="definition">Using IoT Dashboard, the farm monitors soil moisture, temperature, and crop health. Data-driven irrigation and fertilization strategies can be implemented.</div>
                 </div>
             </div>
         </div>
         <div class="text-wrapper">
             <h2>Wrapping Up</h2>
-            <div class="text-content medium-margin">When it comes to IoT management, ThingsBoard strives to be a leader among IoT solutions. With a seasoned team at the helm, we have crafted the best IoT dashboard that effortlessly transforms complex challenges into intuitive solutions.</div>
-            <div class="text-content medium-margin">Our user-friendly free IoT dashboard software makes it easy to navigate the intricacies of IoT. By offering a range of powerful tools, we help businesses unlock the full potential of their connected ecosystems.</div>
-            <div class="text-content">We offer a refreshing approach that combines cutting-edge technology with user-friendly design. With ThingsBoard, you’re not just choosing an IoT platform; you’re choosing a partner dedicated to helping you achieve your business goals.</div>
+            <div class="text-content medium-margin">When it comes to IoT management, PKE IoT Expert strives to be a leader among IoT solutions. With a seasoned team at the helm, we have crafted the best IoT dashboard that effortlessly transforms complex challenges into intuitive solutions.</div>
+            <div class="text-content medium-margin">Our user-friendly IoT dashboard software makes it easy to navigate the intricacies of IoT. By offering a range of powerful tools, we help businesses unlock the full potential of their connected ecosystems.</div>
+            <div class="text-content">We offer a refreshing approach that combines cutting-edge technology with user-friendly design. With PKE IoT Expert, you’re not just choosing an IoT platform; you’re choosing a partner dedicated to helping you achieve your business goals. <a class="article-link" href="/docs/contact-us/">Contact us</a> right now</div>
         </div>
     </div>
 </div>
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+
+
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -161,4 +163,4 @@ redirect_from: "/docs/services/monitoring-dashboard/"
             </form>
         </div>
     </div>
-</div>
+</div> -->

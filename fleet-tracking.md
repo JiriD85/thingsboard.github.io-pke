@@ -1,7 +1,7 @@
 ---
 layout: use-case
-title: ᐉ IoT Fleet Tracking System — Fleet Monitoring
-description: IoT fleet management solutions ✔ Fleet monitoring ⚫ ThingsBoard ➤ Manage your company's fleet and assets using convenient and efficient IoT solutions
+title: Fleet Monitoring
+description: IoT fleet management solutions - Manage your company's fleet and assets using convenient and efficient IoT solutions
 notitle: "true"
 
 ---
@@ -10,7 +10,7 @@ notitle: "true"
 
 <h1 class="usecase-title">IoT Fleet Tracking System</h1>
 
-ThingsBoard's IoT Fleet Tracking System is a comprehensive solution for managing and optimizing your fleet and assets. Our advanced fleet tracking software empowers businesses to oversee assets, monitor routes, and optimize fuel consumption seamlessly. By providing essential insights into asset conditions, this system enables decision-makers to strategize effectively and enhance the efficiency of key operational aspects.
+PKE IoT Expert's Fleet Tracking System is a comprehensive solution for managing and optimizing your fleet and assets. Our advanced fleet tracking software empowers businesses to oversee assets, monitor routes, and optimize fuel consumption seamlessly. By providing essential insights into asset conditions, this system enables decision-makers to strategize effectively and enhance the efficiency of key operational aspects.
 
 <div class="center">
     <img src="/images/solution-templates/fleet-tracking.png">
@@ -52,7 +52,7 @@ Main components of the IoT fleet management system:
         </div>
         <div class="definitions-list-item">
             <div class="term">Remote Fleet Configuration and Control (RPC)</div>
-            <div class="definition">ThingsBoard ensures secure data exchange and implements role-based access control to protect confidential information and comply with industry standards.</div>
+            <div class="definition">PKE IoT Expert ensures secure data exchange and implements role-based access control to protect confidential information and comply with industry standards.</div>
         </div>
         <div class="definitions-list-item">
             <div class="term">Geo-fencing</div>
@@ -131,29 +131,29 @@ The following interactive dashboard hosted on live demo server represents vehicl
     </div>
 </div>
 
-<div class="center" style="margin-bottom: 64px;">
+<!-- <div class="center" style="margin-bottom: 64px;">
     <a id="UseCases_FleetTracking_ViewLiveDemo" target="_blank" href="https://demo.thingsboard.io/dashboard/3d0bf910-ee09-11e6-b619-bb0136cc33d0?publicId=963ab470-34c9-11e7-a7ce-bb0136cc33d0" class="button gtm_button">View live demo</a>
-</div>
+</div> -->
 
-The live Fleet Tracking dashboard displays real-time data from several tracking sensors collected using ThingsBoard MQTT API. Collected data is processed via the rule engine to raise alarms on certain thresholds. You may export the dashboard from our live demo server and import it to your ThingsBoard instance.
+The Fleet Tracking dashboard displays real-time data from several tracking sensors collected using MQTT API. Collected data is processed via the rule engine to raise alarms on certain thresholds. 
 
 ## Explore Our Fleet Management IoT Solutions
 
-ThingsBoard’s fleet management IoT solutions are meticulously crafted to offer unparalleled insights, efficiency, and adaptability.
+PKE IoT Expert’s fleet management IoT solutions are meticulously crafted to offer unparalleled insights, efficiency, and adaptability.
 
 <span class="bold-text">Fleet Tracking Solution Overview.</span> At the core of our offerings is the fleet management system using IoT, illustrated below in a comprehensive diagram.
 
 <object width="100%" style="max-width: max-content; margin: 32px 0" data="/images/iot-use-cases/fleet-tracking.svg"></object>
 
-You may notice plenty of connectivity options for the vehicle trackers: direct connection to the cloud, through the IoT Gateway, or integration with a third-party system. Most of vehicle-tracking projects today use a direct connection to the cloud using MQTT or CoAP in the case of NB IoT. ThingsBoard supports either plain JSON or Protobuf, which significantly optimize network traffic and increase battery life.
+You may notice plenty of connectivity options for the vehicle trackers: direct connection to the cloud, through the IoT Gateway, or integration with a third-party system. Most of vehicle-tracking projects today use a direct connection to the cloud using MQTT or CoAP in the case of NB IoT. PKE IoT Expert supports either plain JSON or Protobuf, which significantly optimize network traffic and increase battery life.
 
-<span class="bold-text">Robust Security Measures.</span> Ensuring the utmost security, ThingsBoard incorporates industry-standard encryption algorithms and supports various device credential types. Data is stored in the fault-tolerant and reliable Cassandra database, assuring the integrity and resilience of your IoT fleet monitoring data.
+<span class="bold-text">Robust Security Measures.</span> Ensuring the utmost security, PKE IoT Expert incorporates industry-standard encryption algorithms and supports various device credential types. Data is stored in the fault-tolerant and reliable Cassandra database, assuring the integrity and resilience of your IoT fleet monitoring data.
 
 <span class="bold-text">Rule Engine for Advanced Analytics.</span> A standout feature of our solutions is the Rule Engine, facilitating the forwarding of incoming data to various analytics systems. This includes but is not limited to Apache Spark or Hadoop, achieved through integration with Kafka or other Message buses. 
 
-In essence, ThingsBoard's fleet management tracking solutions transcend the ordinary, offering a versatile and adaptive framework for businesses seeking to optimize their fleet tracking endeavors.
+In essence, PKE IoT Expert's fleet management tracking solutions transcend the ordinary, offering a versatile and adaptive framework for businesses seeking to optimize their fleet tracking endeavors.
 
-## ThingsBoard benefits:
+## PKE IoT Expert benefits:
 <section class="usecase-advantages">
     <div class="cards row">
         <div class="col-lg-6">
@@ -161,8 +161,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. 
-                        Platform components are horizontally scalable. ThingsBoard has production deployments supporting more then 18 000 vehicles and 500 000 devices connected.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
@@ -172,7 +171,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
                     <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
-                        Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
@@ -190,7 +189,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
@@ -199,7 +198,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
@@ -217,7 +216,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
                     <a class="title" href="/docs/mobile/">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <p>The PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with our dashboards..</p>
                 </div>
             </div>
         </div>
@@ -226,14 +225,14 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
                 <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Our cases:
+## Fleet Tracking Use Cases:
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -251,7 +250,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
             <div class="block">
                 <div>
                     <a class="title">Enhanced vehicle maintenance</a>
-                    <p>Implemented predictive maintenance protocols, leveraging ThingsBoard's analytics, resulting in decreased downtime and extended vehicle lifespan.</p>
+                    <p>Implemented predictive maintenance protocols, leveraging analytics, resulting in decreased downtime and extended vehicle lifespan.</p>
                 </div>
             </div>
         </div>
@@ -259,7 +258,7 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
             <div class="block">
                 <div>
                     <a class="title">Smart driver performance monitoring</a>
-                    <p>Implemented predictive maintenance protocols, leveraging ThingsBoard's analytics, resulting in decreased downtime and extended vehicle lifespan.</p>
+                    <p>Enhanced fleet efficiency with IoT-based smart driver performance monitoring and tracking</p>
                 </div>
             </div>
         </div>
@@ -267,17 +266,17 @@ In essence, ThingsBoard's fleet management tracking solutions transcend the ordi
             <div class="block">
                 <div>
                     <a class="title">Enhanced vehicle maintenance</a>
-                    <p>Successfully built and managed complex multi-tenant fleet solutions, demonstrating ThingsBoard's adaptability for diverse customer needs.</p>
+                    <p>Successfully built and managed complex multi-tenant fleet solutions, demonstrating the adaptability for diverse customer needs.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-Experience the power of transformative IoT fleet management with ThingsBoard's IoT fleet management open-source platform. From optimizing logistics to predictive maintenance, safety enhancements, and multi-tenant solutions, our software is poised to revolutionize your fleet operations. Empower your fleet, empower your business.
+Experience the power of transformative IoT fleet management with PKE IoT Expert. From optimizing logistics to predictive maintenance, safety enhancements, and multi-tenant solutions, our software is poised to revolutionize your fleet operations. Empower your fleet, empower your business. <a class="article-link" href="/docs/contact-us/">Contact us, now.</a>
 
 
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -307,4 +306,4 @@ Experience the power of transformative IoT fleet management with ThingsBoard's I
             </form>
         </div>
     </div>
-</div>
+</div> -->

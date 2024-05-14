@@ -1,8 +1,8 @@
 ---
 layout: iot-article
-title: ᐉ IoT Device Management Platform
+title: IoT Device Management
 notitle: "true"
-description: "IoT Device Management ✔ IoT Device Control ⚫ ThingsBoard ➤ Help organizations to have better control and fetch for all types of device data using REST APIs or Web UI"
+description: "Help organizations to have better control and fetch for all types of device data using REST APIs or Web UI"
 redirect_from: "/docs/services/device-management/"
 ---
 <section class="hero light-text"></section>
@@ -22,7 +22,7 @@ redirect_from: "/docs/services/device-management/"
             <div class="text-content medium-margin">IoT device management system refers to the tasks and interconnected functions related to the setup, configuration, and maintenance of these devices. These tasks include device setup, admin and monitoring of device fleets, and managing the device through its lifecycle.</div>
             <h2 class="line-height-small">Simplify Your Control with IoT Device Management Tools</h2>
             <div class="text-content medium-margin">Good device management platform IoT must provide simple instruments to monitor device state like connectivity status, packet losses, battery level, etc. Those metrics can be used to trigger alerts and notifications in case of abnormal behaviour, device failure or configured events. Also, it is important to have the possibility to monitor device data flow and analyze historical and real-time data.</div>
-            <div class="text-content medium-margin">ThingsBoard device management supports a variety of direct communication <a class="article-link" href="/docs/pe/api/">protocols</a> for interaction between devices and the IoT platform — MQTT, CoAP, HTTP, LWM2M, OPC-UA, Modbus, etc. Those protocols are already industry standards. However, we do support other options — SNMP, Kafka, TCP/UDP.</div>
+            <div class="text-content medium-margin">PKE IoT Expert device management supports a variety of direct communication <a class="article-link" href="/docs/pe/api/">protocols</a> for interaction between devices and the IoT platform — MQTT, CoAP, HTTP, LWM2M, OPC-UA, Modbus, etc. Those protocols are already industry standards. However, we do support other options — SNMP, Kafka, TCP/UDP.</div>
             <div class="text-content">We also <a class="article-link" href="/docs/user-guide/integrations/">accept devices</a> from external connectivity IoT device management companies like LoRaWAN, Sigfox, NB-IoT, AWS IoT, Azure IoT, Actility ThingPark, TheThingsStack, OceanConnect, etc.</div>
             <h2 class="line-height-small">Fundamentals of IoT Device Management</h2>
             <div class="text-content">IoT device management involves several key steps to ensure the smooth operation of your IoT devices.</div>
@@ -106,7 +106,7 @@ redirect_from: "/docs/services/device-management/"
             </ul>
             <div class="text-content">In essence, if your business relies heavily on IoT devices, investing in an IoT Device Management software can greatly enhance your operational efficiency and security.</div>
             <h2>Our Products in IoT Device Management Solutions</h2>
-            <div class="text-content">At ThingsBoard, we offer a comprehensive suite of tools for managing your IoT devices. Our device management platform supports various aspects of a distributed infrastructure for managing, controlling, and monitoring software, hardware, and communication components as well as data flows and data quality.</div>
+            <div class="text-content">We offer a comprehensive suite of tools for managing your IoT devices. Our device management platform supports various aspects of a distributed infrastructure for managing, controlling, and monitoring software, hardware, and communication components as well as data flows and data quality.</div>
             <h3 class="small-padding">Our solutions include:</h3>
             <ul class="list">
                 <li>Easily add new devices to the system with unique identifiers and credentials.</li>
@@ -120,32 +120,37 @@ redirect_from: "/docs/services/device-management/"
         </div>
         <img class="image" srcset="/images/iot-articles/device_settings_1_1090x658.png 1090w, /images/iot-articles/device_settings_1_2180x1316.png 2180w" sizes="(max-width: 1920px) 1090px, (min-width: 1921px) 2180px" src="/images/iot-articles/device_settings_1_1090x658.png" alt="IoT solutions dashboard with widgets dark"/>
         <div class="text-wrapper">
-            <h2 class="center-text">Our Cases</h2>
-            <div class="text-content">At ThingsBoard, we have successfully implemented our IoT device management solutions in various scenarios.</div>
+            <h2 class="center-text">Device Management Use Cases</h2>
+            <div class="text-content">We provide various solutions to succesfully implement IoT device management in various scenarios.</div>
         </div>
         <div class="definitions-block">
             <div class="definitions-list side-paddings">
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold padding-top">Healthcare</div>
-                    <div class="definition">Similar to fitness bands that are used to ьщтшещк users activity, our solutions have been used in the healthcare industry to monitor the health of patients remotely and to connect medical devices such as hematological analyzers, blood pressure monitors, heart rate monitors, and glucose sensors.</div>
+                    <div class="definition">Track and monitor various healthcare parameters using our solutions, similar to fitness bands. Our technology supports remote patient monitoring and connects medical devices such as hematological analyzers, blood pressure monitors, heart rate monitors, and glucose sensors.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold">Manufacturing</div>
-                    <div class="definition">In the manufacturing sector, our products have been used to monitor and manage industrial IoT devices. This includes tracking the status of machines, predicting maintenance needs, and optimizing production processes.</div>
+                    <div class="definition">In the manufacturing sector, our solutions enhance the monitoring and management of industrial IoT devices. This includes tracking machine status, predicting maintenance requirements, and optimizing production processes.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold padding-top">Smart Cities</div>
-                    <div class="definition">Our solutions have been deployed in smart city projects to manage a wide range of IoT devices such as traffic sensors, waste management systems, and smart lighting systems. This helps city administrators to monitor and manage their infrastructure more effectively.</div>
+                    <div class="definition">Our solutions are integral to smart city projects, managing a diverse array of IoT devices including traffic sensors, waste management systems, and smart lighting. This enables city administrators to monitor and manage urban infrastructure more effectively.</div>
                 </div>
                 <div class="definitions-list-item one-to-one-and-half align-start">
                     <div class="term bold">Energy</div>
-                    <div class="definition">Our tools have been used in the energy sector to manage devices like smart meters and solar panels. This helps energy companies to monitor energy consumption and production in real-time, leading to more efficient energy management.</div>
+                    <div class="definition">Our tools are utilized in the energy sector to manage devices such as smart meters and solar panels, enabling energy companies to monitor consumption and production in real-time for more efficient energy management.</div>
                 </div>
             </div>
         </div>
+        <div class="text-wrapper">
+            <div class="text-content medium-margin">If you are looking for an IoT device management system that can help you to improve your business, <a class="article-link" href="/docs/contact-us/">contact us.</a></div>
+        </div>
     </div>
 </div>
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+
+
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -175,4 +180,4 @@ redirect_from: "/docs/services/device-management/"
             </form>
         </div>
     </div>
-</div>
+</div> -->

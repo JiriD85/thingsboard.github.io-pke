@@ -1,8 +1,8 @@
 ---
 layout: iot-article
-title: Internet of Things Solutions ᐉ IoT Services
+title: Internet of Things Solutions
 notitle: "true"
-description: "Internet of Things Services ✔ IoT Solutions ⚫ ThingsBoard ➤ Our products have scalability ✔ fault-tolerance ✔ performance so you will never lose your data"
+description: "Our IoT Solutions offer scalability, fault tolerance, and high performance to ensure your data is always secure and accessible."
 redirect_from: "/docs/services/iot-solutions/"
 ---
 <section class="hero light-text"></section>
@@ -121,7 +121,7 @@ redirect_from: "/docs/services/iot-solutions/"
         <div class="text-wrapper">
             <div class="text-content">A good IoT services provider should offer all these tools + an easy-to-use interface to build end-to-end IoT solutions. Moreover, this list includes only a part of the required functionality. There are IoT solutions providers that focus on implementing APIs and SDKs to build customized solutions. In the latter case, building end-to-end Internet of Things solutions will take more time and effort.</div>
             <h3>If you're thinking about building an IoT environment, don't try to go it alone. Find a reliable IoT services company that helps you along the way.</h3>
-            <h2>ThingsBoard offers:</h2>
+            <h2>PKE IoT Expert offers:</h2>
             <ul id="list-tb-offers" class="list">
                 <li>White-labeled solutions for service providers</li>
                 <li>End-to-end enterprise solutions</li>
@@ -151,10 +151,10 @@ redirect_from: "/docs/services/iot-solutions/"
                 <li>Cost-effective operation</li>
                 <li>Improved work safety</li>
             </ul>
-            <div class="text-content">Building an IoT ecosystem can be difficult. We have the expertise to provide you with a comprehensive set of Internet of Things services for developing and managing IoT technology solutions. Our IoT services are built-in into ThingsBoard products and can be customized to fit your specific needs.</div>
+            <div class="text-content">Building an IoT ecosystem can be difficult. We have the expertise to provide you with a comprehensive set of Internet of Things services for developing and managing IoT technology solutions. Our IoT services can be customized to fit your specific needs.</div>
         </div>
         <div class="definitions-block">
-            <h2 class="center-text">ThingsBoard IoT Services:</h2>
+            <h2 class="center-text">PKE IoT Expert Services:</h2>
             <div class="definitions-list">
                 <div class="definitions-list-item">
                     <div class="term">Asset Management</div>
@@ -166,7 +166,7 @@ redirect_from: "/docs/services/iot-solutions/"
                 </div>
                 <div class="definitions-list-item">
                     <div class="term">Device Connectivity & Data Collection</div>
-                    <div class="definition">Connect your devices to the ThingsBoard platform using various protocols, such as MQTT, HTTP, CoAP, or LwM2M and others</div>
+                    <div class="definition">Connect your devices to the PKE IoT Expert platform using various protocols, such as MQTT, HTTP, CoAP, or LwM2M and others</div>
                 </div>
                 <div class="definitions-list-item">
                     <div class="term">Device Management</div>
@@ -247,15 +247,16 @@ redirect_from: "/docs/services/iot-solutions/"
 <div class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="text-wrapper">
-            <h2 class="center-text">Choose the Best IoT Solutions – Try ThingsBoard</h2>
-            <div class="text-content small-margin">If you’re wondering, why you should choose ThingsBoard among so many IoT service offerings, we have a few arguments.</div>
+            <h2 class="center-text">Choose the Best IoT Solutions – Try PKE IoT Expert</h2>
+            <div class="text-content small-margin">If you’re wondering, why you should choose PKE IoT Expert among so many IoT service offerings, we have a few arguments.</div>
             <div class="text-content medium-margin">As a one-stop IoT services company, we provide our clients with a complete set of components required to build an end-to-end IoT solution. In other words, we support them at every stage, starting from device management and finishing with integrating IoT systems into the business workflow. It includes process automation, alerting, notifications, etc.</div>
-            <div class="text-content medium-margin">At ThingsBoard, we ensure you can manage your devices, collect data, and automate your business processes through our easy and transparent solutions. We offer our edge and gateway products to handle complex, offline and edge computing scenarios. All the components are integrated with each other and easy to configure.</div>
-            <div class="text-content">IoT solutions have never been so easy to implement. Contact the ThingsBoard team right now!</div>
+            <div class="text-content medium-margin">With our IoT Platform, we ensure you can manage your devices, collect data, and automate your business processes through our easy and transparent solutions. All the components are integrated with each other and easy to configure.</div>
+            <div class="text-content">IoT solutions have never been so easy to implement. <a class="article-link" href="/docs/contact-us/">Contact</a> the PKE IoT Expert team right now!</div>
         </div>
     </div>
 </div>
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -286,4 +287,4 @@ redirect_from: "/docs/services/iot-solutions/"
         </div>
     </div>
 
-</div>
+</div> -->

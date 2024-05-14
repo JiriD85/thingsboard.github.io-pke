@@ -1,7 +1,7 @@
 ---
 layout: use-case
 title: Smart Irrigation solution
-description: Irrigation management, fields provision and data visualization with ThingsBoard IoT Platform
+description: Irrigation management, fields provision and data visualization
 notitle: "true"
 
 ---
@@ -54,7 +54,7 @@ Save up to 90% of development time for your smart irrigation solution by utilizi
 </div>
 
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -62,25 +62,26 @@ Save up to 90% of development time for your smart irrigation solution by utilizi
     <div class="cards row">
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/microservices-icon.svg"></object>
+                <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. Platform components are horizontally scalable. ThingsBoard has production deployments with more than 500 000 smart-meters.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/telemetry-icon.svg"></object>
+                <img src="/images/telemetry-icon.svg" alt="Telemetry icon">
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
-                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/integration-icon.svg"></object>
+                <img src="/images/integration-icon.svg" alt="Integration icon">
                 <div>
                     <a class="title" href="/docs/user-guide/integrations/">LoRaWAN & SigFox Support</a>
                     <p>Connect LoRaWAN devices via integrations with standard network servers like TTN, LORIOT, ChirpStack, Actility, etc. Connect SigFox devices via integrations with the SigFox backend.</p>
@@ -89,25 +90,25 @@ Save up to 90% of development time for your smart irrigation solution by utilizi
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/security-icon.svg"></object>
+                <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/engine-icon.svg"></object>
+                <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/visualization-icon.svg"></object>
+                <img src="/images/visualization-icon.svg" alt="Data visualization icon">
                 <div>
                     <a class="title" href="/docs/user-guide/dashboards/">Data visualization</a>
                     <p>Visualize collected data using rich interactive dashboards. Develop multi-state interactive dashboards with zero coding efforts and built-in charts, gauges, maps, tables, and control widgets. Customize every dashboard aspect using advanced widget settings or even custom widget bundles. Low latency updates are possible with embedded web-sockets support.</p>
@@ -116,26 +117,27 @@ Save up to 90% of development time for your smart irrigation solution by utilizi
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/phone-icon.svg"></object>
+                <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
-                    <a class="title" href="/docs/mobile">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <a class="title" href="/docs/mobile/">Mobile application</a>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <object data="/images/tenancy-icon.svg"></object>
+                <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Smart Irrigation solution overview
+
+<!-- ## Smart Irrigation solution overview
 
 The diagram below identifies data flow and integration points for a typical smart irrigation monitoring solution that uses the ThingsBoard platform to collect and analyze monitoring data from sensors.
 
@@ -152,4 +154,4 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
     <a id="UseCases_SmartIrrigation_PlatformFeatures" href="/docs/#platform-features" class="button gtm_button">Platform features</a>
     <a id="UseCases_SmartIrrigation_Architecture" href="/docs/reference/" class="button gtm_button">Architecture</a>
     <a id="UseCases_SmartIrrigation_ContactUs" href="/docs/contact-us/" class="button gtm_button">Contact us</a>
-</div>
+</div> -->

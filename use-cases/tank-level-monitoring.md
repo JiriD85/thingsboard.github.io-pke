@@ -1,7 +1,7 @@
 ---
 layout: use-case
 title: Tank Level Monitoring
-description: Tank Level Monitoring with ThingsBoard IoT Platform
+description: Tank Level Monitoring with PKE IoT Expert
 notitle: "true"
 
 ---
@@ -59,7 +59,7 @@ Save up to 90% of development time for your fuel level monitoring solution by ut
  - remote control and OTA updates for your smart sensors and other devices;
  - customisable mobile applications with minimum coding efforts.
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -67,54 +67,52 @@ Save up to 90% of development time for your fuel level monitoring solution by ut
     <div class="cards row">
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/microservices-icon.svg">
+                <object data="/images/microservices-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. 
-                        Platform components are horizontally scalable. ThingsBoard has production deployments supporting more then 18 000 vehicles and 500 000 devices connected.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/telemetry-icon.svg">
+                <object data="/images/telemetry-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
-                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
-                        Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                    <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/integration-icon.svg">
+                <object data="/images/integration-icon.svg"></object>
                 <div>
-                    <a class="title" href="/docs/user-guide/integrations">LoRaWAN & SigFox Support</a>
+                    <a class="title" href="/docs/user-guide/integrations/">LoRaWAN & SigFox Support</a>
                     <p>Connect LoRaWAN devices via integrations with standard network servers like TTN, LORIOT, ChirpStack, Actility, etc. Connect SigFox devices via integrations with the SigFox backend.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/security-icon.svg">
+                <object data="/images/security-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/engine-icon.svg">
+                <object data="/images/engine-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/visualization-icon.svg">
+                <object data="/images/visualization-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/user-guide/dashboards/">Data visualization</a>
                     <p>Visualize collected data using rich interactive dashboards. Develop multi-state interactive dashboards with zero coding efforts and built-in charts, gauges, maps, tables, and control widgets. Customize every dashboard aspect using advanced widget settings or even custom widget bundles. Low latency updates are possible with embedded web-sockets support.</p>
@@ -123,44 +121,44 @@ Save up to 90% of development time for your fuel level monitoring solution by ut
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/device-icon.svg">
+                <object data="/images/phone-icon.svg"></object>
                 <div>
-                    <a class="title" href="/docs/mobile">Mobile application</a>
+                    <a class="title" href="/docs/mobile/">Mobile application</a>
                     <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-6">
             <div class="block">
-                <img src="/images/tenancy-icon.svg">
+                <object data="/images/tenancy-icon.svg"></object>
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Tank level monitoring solution overview
+<!-- ## Tank level monitoring solution overview
 
-The diagram below identifies data flow and integration points for a typical fuel level monitoring solution that uses the ThingsBoard platform to collect and analyze data from fuel tanks.
+The diagram below identifies data flow and integration points for a typical fuel level monitoring solution that uses PKE IoT Expert to collect and analyze data from fuel tanks.
 
 <object width="100%" style="max-width: max-content; margin: 32px 0" data="/images/iot-use-cases/smart-energy-diagram.svg"></object>
 
 You may notice plenty of connectivity options for the fuel tanks devices: direct connection to the cloud, through the IoT Gateway or integration with a third-party system.
 Most of a fuel level monitoring projects today use direct connection to the cloud using MQTT or CoAP in case of NB IoT. 
-ThingsBoard supports either plain JSON or Protobuf, which significantly optimize network traffic and increase battery life.
+PKE IoT Expert supports either plain JSON or Protobuf, which significantly optimize network traffic and increase battery life.
 
-The platform supports industry-standard encryption algorithms and device credentials types. ThingsBoard stores data in the fault-tolerant and reliable Cassandra database.
-The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses.
+The platform supports industry-standard encryption algorithms and device credentials types. PKE IoT Expert stores data in the fault-tolerant and reliable Cassandra database.
+The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses. -->
 
 
-## Learn more
+<!-- ## Learn more
 <div class="usecases-bottom-nav">
   <a href="/docs/getting-started-guides/helloworld/" class="button">Getting started</a>
   <a href="/industries/smart-energy/" class="button">Customers feedback</a>
   <a href="/docs/#platform-features" class="button">Platform features</a>
   <a href="/docs/reference/" class="button">Architecture</a>
   <a href="/docs/contact-us/" class="button">Contact us</a>
-</div>
+</div> -->

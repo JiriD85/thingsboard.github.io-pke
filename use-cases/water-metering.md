@@ -1,7 +1,7 @@
 ---
 layout: use-case
-title: IoT water metering solutions with ThingsBoard
-description: IoT water metering solutions with ThingsBoard
+title: IoT water metering solutions
+description: IoT water metering solutions
 notitle: "true"
 
 ---
@@ -10,7 +10,7 @@ notitle: "true"
 
 <h1 class="usecase-title">Water metering solutions</h1>
 
-ThingsBoard platform dramatically reduces time to market and efforts to create water metering solutions.
+PKE IoT Expert platform dramatically reduces time to market and efforts to create water metering solutions.
 Save up to 90% of development time for your smart office solution by utilizing the following platform benefits:
 
   - Reliable and fault-tolerant data collection from your IoT devices and sensors;
@@ -25,10 +25,10 @@ The platform provides production-ready server infrastructure to connect your IoT
 
 ## Water metering template
 
-Water Metering [solution template](https://thingsboard.io/docs/paas/solution-templates/water-metering/) represent generic water metering solution. 
+Water Metering solution template represents a generic water metering solution. 
 With this template, you get interactive dashboards that allow administrators and end-users to browse the state of the water meters and aggregated water consumption statistics. 
 Users are able to define thresholds and enable alarms and notifications over SMS or email. 
-You may easily integrate with external billing systems to produce and distribute invoices based on the aggregated consumption data from ThingsBoard. 
+You may easily integrate with external billing systems to produce and distribute invoices based on the aggregated consumption data.
 
 <div class="usecase-carousel owl-carousel owl-theme">
     <div>
@@ -51,11 +51,11 @@ You may easily integrate with external billing systems to produce and distribute
     </div>
 </div>
 
-<div class="center" style="margin-bottom: 64px;">
+<!-- <div class="center" style="margin-bottom: 64px;">
     <a id="UseCases_WaterMeter_ViewLiveDemo" target="_blank" href="https://thingsboard.cloud/dashboard/aff5f200-8b48-11ec-a344-c767c1ab1bb8?publicId=4978baf0-8a92-11ec-98f9-ff45c37940c6" class="button gtm_button">View live demo</a>
-</div>
+</div> -->
 
-The live dashboard is part of the [solution template](https://thingsboard.io/docs/paas/solution-templates/smart-office/) and allows you to:
+The dashboard allows you to:
 
 * observe location and status of the water meters on the map. Markers are clustered to be able to show thousands of meters simultaneously;
 * browse active alarms and water consumption per day and week;
@@ -87,7 +87,7 @@ that allows you to manage water metering devices, users and alarms:
 
 Some dashboard features (for example, ability to create devices) were disabled on the live demo dashboard because it is publicly available.
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -98,8 +98,7 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. 
-                        Platform components are horizontally scalable. ThingsBoard has production deployments supporting more then 500 000 devices connected.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
@@ -109,7 +108,7 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
                     <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
-                        Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
@@ -127,7 +126,7 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
@@ -136,7 +135,7 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
@@ -154,7 +153,7 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
                     <a class="title" href="/docs/mobile/">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
@@ -163,14 +162,14 @@ Some dashboard features (for example, ability to create devices) were disabled o
                 <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Water metering solution overview
+<!-- ## Water metering solution overview
 
 The diagram below identifies data flow and integration points for a typical water metering solution that uses the ThingsBoard platform to collect and analyze data from smart water meters.
 
@@ -189,4 +188,4 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
     <a id="UseCases_WaterMeter_PlatformFeatures" href="/docs/#platform-features" class="button gtm_button">Platform features</a>
     <a id="UseCases_WaterMeter_Architecture" href="/docs/reference/" class="button gtm_button">Architecture</a>
     <a id="UseCases_WaterMeter_ContactUs" href="/docs/contact-us/" class="button gtm_button">Contact us</a>
-</div>
+</div> -->

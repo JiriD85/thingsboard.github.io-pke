@@ -1,7 +1,7 @@
 ---
 layout: use-case
-title: IoT smart retail solutions with ThingsBoard
-description: IoT smart retail solutions with ThingsBoard
+title: IoT smart retail solutions
+description: IoT smart retail solutions
 notitle: "true"
 
 ---
@@ -41,12 +41,11 @@ browse current and historical state of their supermarkets.
     </div>
 </div>
 
-<div class="center" style="margin-bottom: 64px;">
+<!-- <div class="center" style="margin-bottom: 64px;">
     <a id="UseCases_SmartRetail_ViewLiveDemo" target="_blank" href="https://thingsboard.cloud/dashboard/551d4ca0-8b54-11ec-98f9-ff45c37940c6?publicId=4978baf0-8a92-11ec-98f9-ff45c37940c6" class="button gtm_button">View live demo</a>
-</div>
+</div> -->
 
-The live dashboard is part of the [solution template](/docs/paas/solution-templates/smart-retail) and 
-is designed for supermarket managers to monitor state of the supermarket and react on alarms. It has multiple states:
+The dashboard is designed for supermarket managers to monitor state of the supermarket and react on alarms. It has multiple states:
 
 * **Main** state contains a map of the supermarkets, and a list of alarms.
   Alarms are propagated from devices to the corresponding supermarket.
@@ -84,7 +83,7 @@ that allows you to provision customers, their users, supermarkets and devices. I
 * **Supermarket devices** state displays an indoor map with the floor plan of supermarket and device markers.
     You may drag-and-drop the device markers to define precise location of the device in the supermarket.
 
-ThingsBoard platform dramatically reduces time to market and efforts to create smart retail solutions.
+PKE IoT Expert dramatically reduces time to market and efforts to create smart retail solutions.
 Save up to 90% of development time for your smart retail solution by utilizing the following platform benefits:
 
 - Reliable and fault-tolerant data collection from your IoT devices and sensors;
@@ -98,7 +97,7 @@ Save up to 90% of development time for your smart retail solution by utilizing t
 The platform provides production-ready server infrastructure to connect your IoT devices, store, analyze and share collected IoT data.
 
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -109,8 +108,7 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. 
-                        Platform components are horizontally scalable. ThingsBoard has production deployments supporting more then 500 000 devices connected.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
@@ -120,7 +118,7 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
                     <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
-                        Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +136,7 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
@@ -147,7 +145,7 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
@@ -165,7 +163,7 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
                     <a class="title" href="/docs/mobile/">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
@@ -174,14 +172,14 @@ The platform provides production-ready server infrastructure to connect your IoT
                 <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Smart retail solution overview
+<!-- ## Smart retail solution overview
 
 The diagram below identifies data flow and integration points for a typical supermarket monitoring solution that uses the ThingsBoard platform to collect and analyze data from multiple sources.
 
@@ -199,4 +197,4 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
     <a id="UseCases_SmartRetail_PlatformFeatures" href="/docs/#platform-features" class="button gtm_button">Platform features</a>
     <a id="UseCases_SmartRetail_Architecture" href="/docs/reference/" class="button gtm_button">Architecture</a>
     <a id="UseCases_SmartRetail_ContactUs" href="/docs/contact-us/" class="button gtm_button">Contact us</a>
-</div>
+</div> -->

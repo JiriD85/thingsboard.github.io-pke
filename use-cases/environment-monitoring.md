@@ -1,7 +1,7 @@
 ---
 layout: use-case
-title: IoT environment monitoring solutions with ThingsBoard
-description: IoT environment monitoring solutions with ThingsBoard
+title: IoT environment monitoring
+description: IoT environment monitoring solutions with PKE IoT Expert
 notitle: "true"
 
 ---
@@ -10,7 +10,7 @@ notitle: "true"
 
 <h1 class="usecase-title">Environment monitoring solutions</h1>
 
-ThingsBoard platform dramatically reduces time to market and efforts to create environment monitoring solutions.
+PKE IoT Expert platform dramatically reduces time to market and efforts to create environment monitoring solutions.
 Platform is widely used for:
 
   - air quality monitoring in some bigger cities;
@@ -49,11 +49,11 @@ You may quickly adapt it to Air quality or other sensors and add remote control 
     </div>
 </div>
 
-<div class="center" style="margin-bottom: 64px;">
+<!-- <div class="center" style="margin-bottom: 64px;">
     <a id="UseCases_EnvMon_ViewLiveDemo" target="_blank" href="https://thingsboard.cloud/dashboard/dfaef940-8a91-11ec-83d0-83ba2015b874?publicId=4978baf0-8a92-11ec-98f9-ff45c37940c6" class="button gtm_button">View live demo</a>
-</div>
+</div> -->
 
-The live dashboard is part of the [solution template](https://thingsboard.io/docs/paas/solution-templates/temperature-humidity-sensors/) and displays real-time data from temperature and humidity sensor collected using ThingsBoard MQTT API.
+The dashboard displays real-time data from temperature and humidity sensor collected using MQTT API.
 You may use the dashboard to:
 
 * add new sensors;
@@ -64,7 +64,7 @@ You may use the dashboard to:
 The dashboard has two states. The main state displays the list of the sensors, their location on the map as well as the list of their alarms. 
 You may drill down to the sensor details state by clicking on the table row. The sensor details state allows to browse temperature and humidity history, change sensor settings and location.
 
-## ThingsBoard advantages
+## PKE IoT Expert advantages
 <section class="usecase-advantages">
     <div class="usecase-background">
         <div class="bottom-features1"></div><div class="bottom-features2"></div><div class="small11"></div><div class="small12"></div>
@@ -75,8 +75,7 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <img src="/images/microservices-icon.svg" alt="Microservice icon">
                 <div>
                     <a class="title" href="/docs/reference/msa/">Scalability and high availability</a>
-                    <p>ThingsBoard supports high-availability deployments on cloud and on-premises data centers using K8S or bare-metal deployments. 
-                        Platform components are horizontally scalable. ThingsBoard has production deployments supporting more then 500 000 devices connected.</p>
+                    <p>PKE IoT Expert supports high-availability deployments using K8S. Platform components are horizontally scalable.</p>
                 </div>
             </div>
         </div>
@@ -86,7 +85,7 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <div>
                     <a class="title" href="/docs/getting-started-guides/connectivity/">Connectivity</a>
                     <p>Connect devices directly to the platform via the following built-in protocols: HTTP, CoAP, MQTT, LwM2M, and SNMP. 
-                        Connect devices in your local network to the cloud using ThingsBoard Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
+                        Connect devices in your local network to the cloud using IoT Gateway via Modbus, BLE, BACnet, OPC-UA, and other protocols.</p>
                 </div>
             </div>
         </div>
@@ -104,7 +103,7 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <img src="/images/security-icon.svg" alt="Security icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/ssl/http-over-ssl/">Security</a>
-                    <p>ThingsBoard supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
+                    <p>PKE IoT Expert supports industry-standard encryption algorithms like RSA and ECDSA to ensure the data is secure during transfer via TLS(TCP) and DTLS (UDP).</p>
                 </div>
             </div>
         </div>
@@ -113,7 +112,7 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <img src="/images/engine-icon.svg" alt="Gear icon">
                 <div>
                     <a class="title" href="/docs/pe/user-guide/rule-engine-2-0/overview/">Data processing</a>
-                    <p>ThingsBoard allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
+                    <p>PKE IoT Expert allows you to define application logic with drag-n-drop rule chain designer. The Rule Engine is a robust and scalable processing framework that leverages industry-standard message queue implementations like Apache Kafka or AWS SQS to ensure data durability and guarantee data processing. You are free to process data with the Rule engine or push it to further processing in external systems.</p>
                 </div>
             </div>
         </div>
@@ -131,7 +130,7 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <img src="/images/device-icon.svg" alt="Device icon">
                 <div>
                     <a class="title" href="/docs/mobile/">Mobile application</a>
-                    <p>Build your own IoT mobile application with minimum coding efforts using ThingsBoard Mobile Application, an open-source project based on Flutter. Leverage a built-in set of mobile actions to take a photo, scan QR code, update location, and more directly within the dashboard.</p>
+                    <p>PKE IoT Expert Mobile Application comes with an built-in set of mobile actions to take a photo, scan QR code, update location, and interact directly with the customers dashboards.</p>
                 </div>
             </div>
         </div>
@@ -140,14 +139,14 @@ You may drill down to the sensor details state by clicking on the table row. The
                 <img src="/images/tenancy-icon.svg" alt="Tenancy icon">
                 <div>
                     <a class="title" href="/docs/user-guide/entities-and-relations/">Multi-tenancy</a>
-                    <p>ThingsBoard provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
+                    <p>PKE IoT Expert provides UI and API to manage tenants, customers, users, devices, and assets. Single tenant may have multiple tenant administrators and millions of devices and customers. It also offers out-of-the-box support of OTA updates for your smart meters.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-## Environment monitoring solution overview
+<!-- ## Environment monitoring solution overview
 
 The diagram below identifies data flow and integration points for a typical environment monitoring solution that uses the ThingsBoard platform to collect and analyze data from IoT sensors.
 
@@ -170,4 +169,4 @@ The Rule Engine enables forwarding incoming data to various analytics systems, s
     <a id="UseCases_EnvMon_PlatformFeatures" href="/docs/#platform-features" class="button gtm_button">Platform features</a>
     <a id="UseCases_EnvMon_Architecture" href="/docs/reference/" class="button gtm_button">Architecture</a>
     <a id="UseCases_EnvMon_ContactUs" href="/docs/contact-us/" class="button gtm_button">Contact us</a>
-</div>
+</div> -->
