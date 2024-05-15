@@ -89,7 +89,7 @@ Functional cookies are necessary for certain applications or functions of the we
 - Analytical cookies
 They are responsible for collecting information about the usage behavior of the users of our website (e.g. when the website is visited, how long the visit lasts, which subpages are visited and which links are clicked). The data collected is stored anonymously. These cookies allow our website to be analyzed and enable us to improve the website.
 
-## 4.2 | SERVICES FROM GOOGLE
+## 4.1. SERVICES FROM GOOGLE
 We use Google Maps and Google Fonts on this website. Google Maps is a map service and Google Fonts is a directory of fonts. Both services are provided by Google Inc (Google), 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Neither service places any cookies in the technical sense on the user's device. Nevertheless, personal data such as the IP address is transmitted to Google. Your data is processed on the basis of our overriding legitimate interest (Art. 6 para. 1 lit. f GDPR) in providing navigation and improving the usability of the website. The personal data is transferred to and stored on Google servers. These are located in the USA or other countries outside the European Union. We ourselves do not store any of your personal data in connection with these services.
 
 Data such as the following is collected:
