@@ -129,7 +129,7 @@ description: "Smart energy management and monitoring."
         </div>
     </div>
 </div>
-<div id="contact-us" class="block-wrapper wrapper-main-color">
+<!-- <div id="contact-us" class="block-wrapper wrapper-main-color">
     <div class="block-content">
         <div class="contact-us-content">
             <div class="info">
@@ -159,4 +159,4 @@ description: "Smart energy management and monitoring."
             </form>
         </div>
     </div>
-</div>
+</div> -->

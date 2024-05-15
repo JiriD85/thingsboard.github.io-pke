@@ -137,7 +137,7 @@ The following interactive dashboard hosted on live demo server represents vehicl
 
 The Fleet Tracking dashboard displays real-time data from several tracking sensors collected using MQTT API. Collected data is processed via the rule engine to raise alarms on certain thresholds. 
 
-## Explore Our Fleet Management IoT Solutions
+<!-- ## Explore Our Fleet Management IoT Solutions
 
 PKE IoT Expert’s fleet management IoT solutions are meticulously crafted to offer unparalleled insights, efficiency, and adaptability.
 
@@ -151,7 +151,7 @@ You may notice plenty of connectivity options for the vehicle trackers: direct c
 
 <span class="bold-text">Rule Engine for Advanced Analytics.</span> A standout feature of our solutions is the Rule Engine, facilitating the forwarding of incoming data to various analytics systems. This includes but is not limited to Apache Spark or Hadoop, achieved through integration with Kafka or other Message buses. 
 
-In essence, PKE IoT Expert's fleet management tracking solutions transcend the ordinary, offering a versatile and adaptive framework for businesses seeking to optimize their fleet tracking endeavors.
+In essence, PKE IoT Expert's fleet management tracking solutions transcend the ordinary, offering a versatile and adaptive framework for businesses seeking to optimize their fleet tracking endeavors. -->
 
 ## PKE IoT Expert benefits:
 <section class="usecase-advantages">

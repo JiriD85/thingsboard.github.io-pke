@@ -134,7 +134,7 @@ The main dashboard displays the silo asset's location, corresponding alarms, and
     </div>
 </section>
 
-## Smart farming solution overview
+<!-- ## Smart farming solution overview
 
 The diagram below identifies data flow and integration points for a typical smart-farming solution that uses the PKE IoT Expert to collect and analyze data from IoT sensors.
 
@@ -149,7 +149,7 @@ Advanced smart-farming IoT solutions may leverage the [Edge-Controller](/product
 The Edge computing solution is especially useful in case of poor or frequent network outages. See edge [use-cases](/docs/edge/use-cases/overview/) to learn more.
 
 The platform supports industry-standard encryption algorithms and device credentials types. PKE IoT Expert stores data in the fault-tolerant and reliable Cassandra database.
-The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses.
+The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses. -->
 
 <!-- ## Learn more
 <div class="usecases-bottom-nav">

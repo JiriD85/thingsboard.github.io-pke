@@ -189,7 +189,7 @@ Click on the alarm or energy meter row to open the meter details.
 With an expert team that understands these complexities, we are providing an energy monitoring system using IoT that not only addresses these challenges but also drives efficiency and sustainability in IoT energy management.
 
 
-## Smart energy system architecture diagram
+<!-- ## Smart energy system architecture diagram
 
 The diagram below identifies data flow and integration points for a typical smart-energy solution that uses the PKE IoT Expert to collect and analyze energy monitoring data from smart meters.
 
@@ -197,7 +197,7 @@ The diagram below identifies data flow and integration points for a typical smar
 
 You may notice plenty of connectivity options for the smart meters: direct connection to the cloud, through the IoT Gateway, or an Integration with a third-party system.
 The platform supports industry-standard encryption algorithms and device credentials types. PKE IoT Expert stores data in the fault-tolerant and reliable Cassandra database. 
-The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses.
+The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses. -->
 
 ## Our cases
 

@@ -150,7 +150,7 @@ The main dashboard displays multiple districts and enables user to drill down fr
     </div>
 </section>
 
-## Smart energy solution overview
+<!-- ## Smart energy solution overview
 
 The diagram below identifies data flow and integration points for a typical smart-metering solution that uses PKE IoT Expert to collect and analyze energy monitoring data from smart meters.
 
@@ -158,7 +158,7 @@ The diagram below identifies data flow and integration points for a typical smar
 
 You may notice plenty of connectivity options for the smart meters: direct connection to the cloud, through the IoT Gateway, or an Integration with a third-party system.
 The platform supports industry-standard encryption algorithms and device credentials types. PKE IoT Expert stores data in the fault-tolerant and reliable Cassandra database. 
-The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses.
+The Rule Engine enables forwarding incoming data to various analytics systems, such as Apache Spark or Hadoop, using Kafka or other Message buses. -->
 
 <!-- ## Learn more
 <div class="usecases-bottom-nav">
